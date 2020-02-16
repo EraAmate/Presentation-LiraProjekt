@@ -1,382 +1,625 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Lira Presentation</title>
 
-  <title>Lira Presentation</title>
+        <style>
+            body {
+                background-color: #f4f4f4;
+            }
+        </style>
+    </head>
 
-  <style>
-    body {
-      background-color: #f4f4f4;
-    }
-  </style>
-</head>
-
-<body>
-  <nav class="navbar navbar-light" style="background-color: #f4f4f4">
-    <a class="navbar-brand text-black" style="font-style: italic" href="###">
-      <svg xmlns="http://www.w3.org/2000/svg" height="30" viewbox="0 0 24 24" width="30">
-        <path
-          d="M0 0h24v24H0V0zm13.97 21.49c-.63.23-1.29.4-1.97.51.68-.12 1.33-.29 1.97-.51zM12 22c-.68-.12-1.33-.29-1.97-.51.64.22 1.29.39 1.97.51z"
-          fill="none" />
-        <path
-          d="M8.55 12c-1.07-.71-2.25-1.27-3.53-1.61 1.28.34 2.46.9 3.53 1.61zm10.43-1.61c-1.29.34-2.49.91-3.57 1.64 1.08-.73 2.28-1.3 3.57-1.64z" />
-        <path
-          d="M15.49 9.63c-.18-2.79-1.31-5.51-3.43-7.63-2.14 2.14-3.32 4.86-3.55 7.63 1.28.68 2.46 1.56 3.49 2.63 1.03-1.06 2.21-1.94 3.49-2.63zm-6.5 2.65c-.14-.1-.3-.19-.45-.29.15.11.31.19.45.29zm6.42-.25c-.13.09-.27.16-.4.26.13-.1.27-.17.4-.26zM12 15.45C9.85 12.17 6.18 10 2 10c0 5.32 3.36 9.82 8.03 11.49.63.23 1.29.4 1.97.51.68-.12 1.33-.29 1.97-.51C18.64 19.82 22 15.32 22 10c-4.18 0-7.85 2.17-10 5.45z" />
-      </svg>
-      Lira</a>
-    <button id="info" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Algarve. Portugal</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Lira Prime Group</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Language
-          </a>
-          <div class="dropdown-menu" style="background-color: #CFD8DC" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">English</a>
-            <a class="dropdown-item" href="#">German</a>
-            <a class="dropdown-item" href="#">Russian</a>
-            <a class="dropdown-item" href="#">Ukrainian</a>
-            <a class="dropdown-item" href="#">Spain</a>
-            <a class="dropdown-item" href="#">Portugese</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <!-- Navbar content -->
-  </nav>
-  <div class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-caption d-none d-md-block">
-      <h3>
-        The concept of the entertaining and recreational complex “Lira”
-      </h3>
-      <h5>Algarve Portugal</h5>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="Present.Details/3-302-2000x1333.jpg" class="d-block w-100" style="height: 600px; object-fit: cover; "
-          alt="#" />
-      </div>
-
-      <div class="carousel-item">
-        <img src="Present.Details/yj_gwsbyut.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;"
-          alt="#" />
-      </div>
-      <div class="carousel-item">
-        <img src="Present.Details/catch-7.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;"
-          alt="#" />
-      </div>
-    </div>
-  </div>
-  <main>
-    <div style="margin: 10px 20px 5px 20px;">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="card border-secondary mb-3 " style="border-radius: 15px; ">
-            <div class="card-body">
-              <div>
-                <h5 class="card-title text-center">
-                  General lay-out and land improvement
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted text-center">
-                  Card subtitle
-                </h6>
-                <p class="card-text">
-                  The complex consists of several main and also a number of
-                  auxiliary facilities. The main constructions are a hotel,
-                  with the building area of 828.00 sq.m, a restaurant, the
-                  building area of 540.00 sq.m and a sports and recreational
-                  complex of 576 sq.m. There are three planned access points
-                  into the complex of the total area of 1.2 hectares. The main
-                  traffic stream is planned from the side of the hotel and the
-                  sports complex. All access points and approaches are stone
-                  paving. It is planned to build two eco-parking areas for 60
-                  parking lots with a possibility to charge electric vehicles
-                  and also parking lots for bicycles. The project provides the
-                  proposals on land improvement within the area, vertical
-                  planning and gardening. In order to provide services to
-                  people with limited mobility (people with disabilities), the
-                  full range of actions is envisaged.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <br />
-      </div>
-      <div class="card-deck">
-        <div class="card border-secondary mb-3" style="border-radius: 15px;">
-          <img src="Present.Details/download.jpeg" class="card-img-top"
-            style="border-top-left-radius: 15px; border-top-right-radius: 15px;" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Hotel</h5>
-            <p class="card-text">
-              The designed building is intended for accommodation of clients
-              of a complex. The hotel is a five-storied building of 16 m high
-              above the ground level and one technical floor below ground
-              level, with the building area of 828.00 sq. m (category 4 ****,
-              for 62 rooms) The building belongs to the main constructive
-              system with longitudinal external and internal bearing walls.
-              The building framework: monolithic reinforced concrete beams and
-              columns The foundation: monolithic reinforced concrete raft
-              External walls: ceramic block (380 mm thick) or brick of porous
-              brick (380 mm thick). First floor plate: monolithic reinforced
-              concrete (200 mm thick). Floor and roof slab: monolithic
-              reinforced concrete (200 mm thick). Roof: heat-insulated
-              membrane with an internal organized drain. Internal walls:
-              ceramic block (250 mm thick) or brick block from a porous brick
-              (250 mm thick) Partitions: gypsum board (with siding by
-              plasterboard in two layers on both sides 150 mm thick with sound
-              insulation from mineral wool slabs.
-            </p>
-            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
-              More information
+    <body>
+        <nav class="navbar navbar-light" style="background-color: #f4f4f4">
+            <a
+                class="navbar-brand text-black"
+                style="font-style: italic"
+                href="###"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="30"
+                    viewbox="0 0 24 24"
+                    width="30"
+                >
+                    <path
+                        d="M0 0h24v24H0V0zm13.97 21.49c-.63.23-1.29.4-1.97.51.68-.12 1.33-.29 1.97-.51zM12 22c-.68-.12-1.33-.29-1.97-.51.64.22 1.29.39 1.97.51z"
+                        fill="none"
+                    />
+                    <path
+                        d="M8.55 12c-1.07-.71-2.25-1.27-3.53-1.61 1.28.34 2.46.9 3.53 1.61zm10.43-1.61c-1.29.34-2.49.91-3.57 1.64 1.08-.73 2.28-1.3 3.57-1.64z"
+                    />
+                    <path
+                        d="M15.49 9.63c-.18-2.79-1.31-5.51-3.43-7.63-2.14 2.14-3.32 4.86-3.55 7.63 1.28.68 2.46 1.56 3.49 2.63 1.03-1.06 2.21-1.94 3.49-2.63zm-6.5 2.65c-.14-.1-.3-.19-.45-.29.15.11.31.19.45.29zm6.42-.25c-.13.09-.27.16-.4.26.13-.1.27-.17.4-.26zM12 15.45C9.85 12.17 6.18 10 2 10c0 5.32 3.36 9.82 8.03 11.49.63.23 1.29.4 1.97.51.68-.12 1.33-.29 1.97-.51C18.64 19.82 22 15.32 22 10c-4.18 0-7.85 2.17-10 5.45z"
+                    />
+                </svg>
+                Lira</a
+            >
+            <button
+                id="info"
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                      Composition
-                    </h5>
-                  </div>
-                  <div class="modal-body">
-                    Lira hotel, a five-storied building 16 meters high, and
-                    one technical floor below ground level, with the building
-                    area of 828.0 sq. m (category 4 ****, for 62 rooms)
-                    (appendix No. 3).
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                      Close
-                    </button>
-                  </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Algarve. Portugal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lira Prime Group</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdownMenuLink"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            Language
+                        </a>
+                        <div
+                            class="dropdown-menu"
+                            style="background-color: #CFD8DC"
+                            aria-labelledby="navbarDropdownMenuLink"
+                        >
+                            <a class="dropdown-item" href="#">English</a>
+                            <a class="dropdown-item" href="#">German</a>
+                            <a class="dropdown-item" href="#">Russian</a>
+                            <a class="dropdown-item" href="#">Ukrainian</a>
+                            <a class="dropdown-item" href="#">Spain</a>
+                            <a class="dropdown-item" href="#">Portugese</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Navbar content -->
+        </nav>
+        <div class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="1"
+                ></li>
+                <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="2"
+                ></li>
+                <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="3"
+                ></li>
+            </ol>
+            <div class="carousel-caption d-none d-md-block">
+                <h3>
+                    The concept of the entertaining and recreational complex
+                    “Lira”
+                </h3>
+                <h5>Algarve Portugal</h5>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="Present.Details/3-302-2000x1333.jpg"
+                        class="d-block w-100"
+                        style="height: 600px; object-fit: cover; "
+                        alt="#"
+                    />
                 </div>
-              </div>
+
+                <div class="carousel-item">
+                    <img
+                        src="Present.Details/yj_gwsbyut.jpg"
+                        class="d-block w-100"
+                        style="height: 600px; object-fit: cover;"
+                        alt="#"
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="Present.Details/catch-7.jpg"
+                        class="d-block w-100"
+                        style="height: 600px; object-fit: cover;"
+                        alt="#"
+                    />
+                </div>
             </div>
-          </div>
         </div>
-        <div class="card border-secondary mb-3" style="border-radius: 15px;">
-          <img src="Present.Details/b311dc0b7301e7408ccdedb30f92ef85.jpg" class="card-img-top"
-            style="border-top-left-radius: 15px; border-top-right-radius: 15px;" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Restaurant</h5>
-            <p class="card-text">
-              The designed building is intended for providing high-quality
-              food services with a wide range of dishes and comfortable
-              pastime of the clients. The restaurant is a two-storied building
-              of 8 meters high, with the building area of 540 sq.m. The
-              building belongs to the main constructive system with
-              longitudinal external and internal bearing walls. The building
-              framework: monolithic reinforced concrete beams and columns The
-              foundation: monolithic reinforced concrete raft External walls:
-              ceramic block (380 mm thick) or brick of porous brick (380 mm
-              thick). First floor plate: monolithic reinforced concrete (200
-              mm thick). Floor and roof slab: monolithic reinforced concrete
-              (200 mm thick). Roof: heat-insulated membrane with an internal
-              organized drain. Internal walls: ceramic block (250 mm thick) or
-              brick block from a porous brick (250 mm thick) Partitions:
-              gypsum board (with siding by plasterboard in two layers on both
-              sides 150 mm thick with sound insulation from mineral wool slabs
-              .
-            </p>
-            <a href="#info" class="btn btn-secondary">More information</a>
-          </div>
-        </div>
-        <div class="card border-secondary mb-3" style="border-radius: 15px;">
-          <img src="Present.Details/download (1).jpeg"
-            style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Recreational complex</h5>
-            <p class="card-text">
-              The designed building is intended for providing professional
-              recreational and cosmetology services for clients. It is a
-              two-storied building of 8 m high, with the building area of 576
-              sq.m. The building belongs to the main constructive system with
-              longitudinal external and internal bearing walls. The building
-              framework: monolithic reinforced concrete beams and columns The
-              foundation: monolithic reinforced concrete raft External walls:
-              ceramic block (380 mm thick) or brick of porous brick (380 mm
-              thick). First floor plate: monolithic reinforced concrete (200
-              mm thick). Floor and roof slab: monolithic reinforced concrete
-              (200 mm thick). Roof: heat-insulated membrane with an internal
-              organized drain. Internal walls: ceramic block (250 mm thick) or
-              brick block from a porous brick (250 mm thick) Partitions –
-              brick 150 mm thick.
-            </p>
-            <a href="#info" class="btn btn-secondary"> More information</a>
-          </div>
-        </div>
-      </div>
+        <main>
+            <div style="margin: 10px 20px 5px 20px;">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div
+                            class="card border-secondary mb-3 "
+                            style="border-radius: 15px; "
+                        >
+                            <div class="card-body">
+                                <div>
+                                    <h5 class="card-title text-center">
+                                        General lay-out and land improvement
+                                    </h5>
+                                    <h6
+                                        class="card-subtitle mb-2 text-muted text-center"
+                                    >
+                                        Card subtitle
+                                    </h6>
+                                    <p class="card-text">
+                                        The complex consists of several main and
+                                        also a number of auxiliary facilities.
+                                        The main constructions are a hotel, with
+                                        the building area of 828.00 sq.m, a
+                                        restaurant, the building area of 540.00
+                                        sq.m and a sports and recreational
+                                        complex of 576 sq.m. There are three
+                                        planned access points into the complex
+                                        of the total area of 1.2 hectares. The
+                                        main traffic stream is planned from the
+                                        side of the hotel and the sports
+                                        complex. All access points and
+                                        approaches are stone paving. It is
+                                        planned to build two eco-parking areas
+                                        for 60 parking lots with a possibility
+                                        to charge electric vehicles and also
+                                        parking lots for bicycles. The project
+                                        provides the proposals on land
+                                        improvement within the area, vertical
+                                        planning and gardening. In order to
+                                        provide services to people with limited
+                                        mobility (people with disabilities), the
+                                        full range of actions is envisaged.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-      <div class="card mb-3 border-secondary mb-3" style="border-radius: 15px;">
-        <img src="Present.Details/ko5a1720.sgtk_.jpg" class="card-img-top" style="border-radius: 15px;"
-          alt="Illustration" />
-      </div>
+                    <br />
+                </div>
+                <div class="card-deck">
+                    <div
+                        class="card border-secondary mb-3"
+                        style="border-radius: 15px;"
+                    >
+                        <img
+                            src="Present.Details/download.jpeg"
+                            class="card-img-top"
+                            style="border-top-left-radius: 15px; border-top-right-radius: 15px;"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Hotel</h5>
+                            <p class="card-text">
+                                The designed building is intended for
+                                accommodation of clients of a complex. The hotel
+                                is a five-storied building of 16 m high above
+                                the ground level and one technical floor below
+                                ground level, with the building area of 828.00
+                                sq. m (category 4 ****, for 62 rooms) The
+                                building belongs to the main constructive system
+                                with longitudinal external and internal bearing
+                                walls. The building framework: monolithic
+                                reinforced concrete beams and columns The
+                                foundation: monolithic reinforced concrete raft
+                                External walls: ceramic block (380 mm thick) or
+                                brick of porous brick (380 mm thick). First
+                                floor plate: monolithic reinforced concrete (200
+                                mm thick). Floor and roof slab: monolithic
+                                reinforced concrete (200 mm thick). Roof:
+                                heat-insulated membrane with an internal
+                                organized drain. Internal walls: ceramic block
+                                (250 mm thick) or brick block from a porous
+                                brick (250 mm thick) Partitions: gypsum board
+                                (with siding by plasterboard in two layers on
+                                both sides 150 mm thick with sound insulation
+                                from mineral wool slabs.
+                            </p>
+                            <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-toggle="modal"
+                                data-target="#exampleModal"
+                            >
+                                More information
+                            </button>
 
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="card border-secondary mb-3 " style="border-radius: 15px; ">
-            <div class="card-body">
-              <h5 class="card-title text-center">
-                Improvement of the territory
-              </h5>
-              <h6 class="card-subtitle mb-2 text-muted text-center">
-                Card subtitle
-              </h6>
-              <p class="card-text">
-                Improvement of the territory provides for the construction of
-                the blind area around the perimeter of all buildings. The
-                walkways installation is going to be carried out from a
-                natural, decorative stone and paving slabs. Also within the
-                whole complex area there will be external energy-saving diode
-                lighting. It is planned to place the modern street furniture
-                and litter baskets along all walkways, also construction of
-                the decorative lake, fountains and different small
-                architectural pieces. For gardening will be developed a
-                vegetation layout with the aim to select harmonious
-                compositions from the variety of plants and trees in
-                accordance with the climatic conditions. The territory of a
-                complex around all perimeter is surrounded by a fence from
-                decorative concrete elements of 1500 mm high and by a green
-                hedge (bushes) Soft street lighting is provided for on solar
-                batteries with lamps with photo cells: there is no need to
-                have electric power for street lamps, therefore it is not
-                required to run wires and to connect devices to the network.
-                It will be significant saving of efforts and money. It is
-                possible to install several dozens of lamps, but accounts for
-                the electric power will not increase. Overall automation.
-                Devices are charged, turn on and off without participation of
-                the user. The installation of lamps will require minimum of
-                time and efforts. As an option, devices can be easily
-                rearranged to other places. Lamps are convenient in operation,
-                not requiring complicated service. All this together creates
-                the cozy atmosphere, esthetics and significant saving of
-                energy resources.
-              </p>
+                            <div
+                                class="modal fade"
+                                id="exampleModal"
+                                tabindex="-1"
+                                role="dialog"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5
+                                                class="modal-title"
+                                                id="exampleModalLabel"
+                                            >
+                                                Composition
+                                            </h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            Lira hotel, a five-storied building
+                                            16 meters high, and one technical
+                                            floor below ground level, with the
+                                            building area of 828.0 sq. m
+                                            (category 4 ****, for 62 rooms)
+                                            (appendix No. 3).
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button
+                                                type="button"
+                                                class="btn btn-secondary"
+                                                data-dismiss="modal"
+                                            >
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card border-secondary mb-3"
+                        style="border-radius: 15px;"
+                    >
+                        <img
+                            src="Present.Details/b311dc0b7301e7408ccdedb30f92ef85.jpg"
+                            class="card-img-top"
+                            style="border-top-left-radius: 15px; border-top-right-radius: 15px;"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Restaurant</h5>
+                            <p class="card-text">
+                                The designed building is intended for providing
+                                high-quality food services with a wide range of
+                                dishes and comfortable pastime of the clients.
+                                The restaurant is a two-storied building of 8
+                                meters high, with the building area of 540 sq.m.
+                                The building belongs to the main constructive
+                                system with longitudinal external and internal
+                                bearing walls. The building framework:
+                                monolithic reinforced concrete beams and columns
+                                The foundation: monolithic reinforced concrete
+                                raft External walls: ceramic block (380 mm
+                                thick) or brick of porous brick (380 mm thick).
+                                First floor plate: monolithic reinforced
+                                concrete (200 mm thick). Floor and roof slab:
+                                monolithic reinforced concrete (200 mm thick).
+                                Roof: heat-insulated membrane with an internal
+                                organized drain. Internal walls: ceramic block
+                                (250 mm thick) or brick block from a porous
+                                brick (250 mm thick) Partitions: gypsum board
+                                (with siding by plasterboard in two layers on
+                                both sides 150 mm thick with sound insulation
+                                from mineral wool slabs .
+                            </p>
+                            <a href="#info" class="btn btn-secondary"
+                                >More information</a
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="card border-secondary mb-3"
+                        style="border-radius: 15px;"
+                    >
+                        <img
+                            src="Present.Details/download (1).jpeg"
+                            style="border-top-left-radius: 15px; border-top-right-radius: 15px;"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Recreational complex</h5>
+                            <p class="card-text">
+                                The designed building is intended for providing
+                                professional recreational and cosmetology
+                                services for clients. It is a two-storied
+                                building of 8 m high, with the building area of
+                                576 sq.m. The building belongs to the main
+                                constructive system with longitudinal external
+                                and internal bearing walls. The building
+                                framework: monolithic reinforced concrete beams
+                                and columns The foundation: monolithic
+                                reinforced concrete raft External walls: ceramic
+                                block (380 mm thick) or brick of porous brick
+                                (380 mm thick). First floor plate: monolithic
+                                reinforced concrete (200 mm thick). Floor and
+                                roof slab: monolithic reinforced concrete (200
+                                mm thick). Roof: heat-insulated membrane with an
+                                internal organized drain. Internal walls:
+                                ceramic block (250 mm thick) or brick block from
+                                a porous brick (250 mm thick) Partitions – brick
+                                150 mm thick.
+                            </p>
+                            <a href="#info" class="btn btn-secondary">
+                                More information</a
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="card mb-3 border-secondary mb-3"
+                    style="border-radius: 15px;"
+                >
+                    <img
+                        src="Present.Details/ko5a1720.sgtk_.jpg"
+                        class="card-img-top"
+                        style="border-radius: 15px;"
+                        alt="Illustration"
+                    />
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div
+                            class="card border-secondary mb-3 "
+                            style="border-radius: 15px; "
+                        >
+                            <div class="card-body">
+                                <h5 class="card-title text-center">
+                                    Improvement of the territory
+                                </h5>
+                                <h6
+                                    class="card-subtitle mb-2 text-muted text-center"
+                                >
+                                    Card subtitle
+                                </h6>
+                                <p class="card-text">
+                                    Improvement of the territory provides for
+                                    the construction of the blind area around
+                                    the perimeter of all buildings. The walkways
+                                    installation is going to be carried out from
+                                    a natural, decorative stone and paving
+                                    slabs. Also within the whole complex area
+                                    there will be external energy-saving diode
+                                    lighting. It is planned to place the modern
+                                    street furniture and litter baskets along
+                                    all walkways, also construction of the
+                                    decorative lake, fountains and different
+                                    small architectural pieces. For gardening
+                                    will be developed a vegetation layout with
+                                    the aim to select harmonious compositions
+                                    from the variety of plants and trees in
+                                    accordance with the climatic conditions. The
+                                    territory of a complex around all perimeter
+                                    is surrounded by a fence from decorative
+                                    concrete elements of 1500 mm high and by a
+                                    green hedge (bushes) Soft street lighting is
+                                    provided for on solar batteries with lamps
+                                    with photo cells: there is no need to have
+                                    electric power for street lamps, therefore
+                                    it is not required to run wires and to
+                                    connect devices to the network. It will be
+                                    significant saving of efforts and money. It
+                                    is possible to install several dozens of
+                                    lamps, but accounts for the electric power
+                                    will not increase. Overall automation.
+                                    Devices are charged, turn on and off without
+                                    participation of the user. The installation
+                                    of lamps will require minimum of time and
+                                    efforts. As an option, devices can be easily
+                                    rearranged to other places. Lamps are
+                                    convenient in operation, not requiring
+                                    complicated service. All this together
+                                    creates the cozy atmosphere, esthetics and
+                                    significant saving of energy resources.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </main>
+
+        <div class="col-sm-12 ">
+            <div
+                class="card border-secondary mb-3 "
+                style="border-radius: 15px; "
+            >
+                <div class="card-body text-center">
+                    <h5 class="card-title text-center">
+                        Engineering networks
+                    </h5>
+                    <img
+                        class="text-center"
+                        src="Present.Details/waves-24px.svg"
+                        alt="Waves"
+                        style="height: 50px;"
+                    />
+
+                    <h6 class="card-subtitle mb-2 text-muted text-center">
+                        Water supply and sewerage
+                    </h6>
+                    <p class="card-text">
+                        To provide a complex with water, it is planned to drill
+                        an artesian well or to connect to the local water supply
+                        networks. Also in order to receive a quality drinking
+                        water, there will be a station of advanced water
+                        treatment. The domestic sewage system will be connected
+                        to the existing local system. Small treatment facilities
+                        will be installed for purification of process
+                        (technical) waters. The swimming pools are considered as
+                        firewater tanks, that is why it is planned to install a
+                        small pumping station.
+                    </p>
+
+                    <img
+                        class="text-center"
+                        src="Present.Details/power-24px.svg"
+                        alt="Waves"
+                        style="height: 50px;"
+                    />
+
+                    <h6 class="card-subtitle mb-2 text-muted text-center">
+                        Power supply
+                    </h6>
+                    <p class="card-text">
+                        Power supply of a complex is provided due to
+                        installation of roof solar batteries accumulating
+                        approx. 120 kW of electric power a day. Deficient volume
+                        of electric power will be compensated by connection to
+                        local electrical grid. All buildings will be equipped
+                        with the lightning protection and grounding, and also
+                        with surface safety systems for solar batteries against
+                        mechanical damages.
+                    </p>
+                    <img
+                        class="text-center"
+                        src="Present.Details/widgets-24px.svg"
+                        alt="Waves"
+                        style="height: 50px;"
+                    />
+
+                    <h6 class="card-subtitle mb-2 text-muted text-center">
+                        Heating, ventilation and conditioning
+                    </h6>
+
+                    <p class="card-text">
+                        Heating will be done by installation of air recuperation
+                        and conditioning equipment. There will be compulsory
+                        supply and exhaust ventilation system with air
+                        recuperation. Conditioning - split air conditioning
+                        system.
+                    </p>
+                    <img
+                        class="text-center"
+                        src="Present.Details/fireplace-24px.svg"
+                        alt="Waves"
+                        style="height: 50px;"
+                    />
+
+                    <h6 class="card-subtitle mb-2 text-muted text-center">
+                        Brazier zone
+                    </h6>
+                    <p class="card-text">
+                        The building will be an arbour type for preparation of
+                        dishes on a brazier, a tandoor, a grill etc. The
+                        foundation is strip reinforced concrete foundation.
+                        Floor – natural stone. Walls – a natural stone, brick,
+                        metal frame. Roof – a metal roofing profile or metal
+                        tiles.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </main>
 
-  <div class="col-sm-12 ">
-    <div class="card border-secondary mb-3 " style="border-radius: 15px; ">
-      <div class="card-body text-center">
-        <h5 class="card-title text-center">
-          Engineering networks
-        </h5>
-        <img class="text-center" src="Present.Details/waves-24px.svg" alt="Waves" style="height: 50px;" />
+        <footer
+            class="page-footer font-small teal pt-4 background-color: #FFFFFF"
+        >
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-6 mt-md-0 mt-3">
+                        <h5 class="text-uppercase  font-weight-bold">
+                            Impressum
+                        </h5>
 
-        <h6 class="card-subtitle mb-2 text-muted text-center">
-          Water supply and sewerage
-        </h6>
-        <p class="card-text">
-          To provide a complex with water, it is planned to drill an artesian
-          well or to connect to the local water supply networks. Also in order
-          to receive a quality drinking water, there will be a station of
-          advanced water treatment. The domestic sewage system will be
-          connected to the existing local system. Small treatment facilities
-          will be installed for purification of process (technical) waters.
-          The swimming pools are considered as firewater tanks, that is why it
-          is planned to install a small pumping station.
-        </p>
-      </div>
-    </div>
-  </div>
+                        <ul style="list-style: none;">
+                            <li>03057, Ezhena Potie Street, 10А</li>
+                            <li>Kyiv, Ukraine</li>
 
-  
+                            <li>+49 176 34337267</li>
+                            <li>liraprimegroup@gmail.com</li>
+                        </ul>
+                    </div>
 
+                    <hr class="clearfix w-100 d-md-none pb-3" />
 
-  <footer class="page-footer font-small teal pt-4 background-color: #FFFFFF">
-    <div class="container-fluid text-center text-md-left">
-      <div class="row">
-        <div class="col-md-6 mt-md-0 mt-3">
-          <h5 class="text-uppercase  font-weight-bold">Impressum</h5>
-          <p>
-            <ul style="list-style: none;">
-              <li>03057, Ezhena Potie Street, 10А</li>
-              <li>Kyiv, Ukraine</li>
+                    <div class="col-md-6 mb-md-0 mb-3">
+                        <h5 class="text-uppercase font-weight-bold">
+                            Follow us
+                        </h5>
 
-              <li> +49 176 34337267</li>
-              <li> liraprimegroup@gmail.com
-              </li>
-            </ul>
-          </p>
-        </div>
+                        <ul class="text-md-left " style="list-style: none; ">
+                            <li>
+                                <a href="https://facebook.com/colorlib"
+                                    ><i
+                                        class="fa fa-facebook"
+                                        aria-hidden="true"
+                                    ></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/colorlib"
+                                    ><i
+                                        class="fa fa-twitter"
+                                        aria-hidden="true"
+                                    ></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/colorlib"
+                                    ><i
+                                        class="fa fa-instagram"
+                                        aria-hidden="true"
+                                    ></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/puikinsh"
+                                    ><i
+                                        class="fa fa-github"
+                                        aria-hidden="true"
+                                    ></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-        <hr class="clearfix w-100 d-md-none pb-3" />
-
-        <div class="col-md-6 mb-md-0 mb-3">
-          <h5 class="text-uppercase font-weight-bold">Follow us</h5>
-
-
-
-          <ul class="text-md-left " style="list-style: none; ">
-            <li><a href="https://facebook.com/colorlib"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="https://twitter.com/colorlib"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="https://instagram.com/colorlib"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="https://github.com/puikinsh"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-
-
-
-
-    </div>
-
-
-  </footer>
-
-
-
-
-
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-
-</body>
-
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
