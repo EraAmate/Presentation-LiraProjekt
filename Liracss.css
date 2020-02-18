@@ -2,7 +2,7 @@ body {
     background-color: #f4f4f4;
 }
 
-.nav-li {
+ul-nav {
     list-style: none;
     width: 100%;
 }
