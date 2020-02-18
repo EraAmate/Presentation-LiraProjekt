@@ -2,11 +2,40 @@ body {
     background-color: #f4f4f4;
 }
 
-ul-nav {
-    list-style: none;
-    width: 100%;
+.contact {
+    background: url(Present.Details/679ab4a0c2b3d1a925d2c7cf4bf459f3.jpg);
+    margin-top: 20px;
+    padding: 80px;
+    position: relative;
+    z-index: 1;
 }
-button {
+.contact-items h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+.contact-items input[type='text'] {
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 50%;
+}
+.contact-items textarea {
+    border-radius: 15px;
+    height: 150px;
+    padding: 15px;
+    width: 50%;
+}
+.contact-items a {
     background-color: #5b6268;
+    text-decoration-color: white;
+
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-box-align: center;
     color: white;
+    border-radius: 10px;
 }
