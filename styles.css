@@ -1,0 +1,12 @@
+body {
+    background-color: #f4f4f4;
+}
+
+ul-nav {
+    list-style: none;
+    width: 100%;
+}
+button {
+    background-color: #5b6268;
+    color: white;
+}
